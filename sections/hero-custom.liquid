@@ -1,34 +1,29 @@
 <section class="hero-banner">
+  <div class="hero-banner-wrapper">
+    {% if section.settings.hero_image %}
+      <div class="hero-image">
+        {{ section.settings.hero_image | image_url: width: 1500 | image_tag: loading: 'lazy' }}
+      </div>
+    {% endif %}
 
-  {% if section.settings.hero_image %}
-    <div class="hero-image">
-      {{ section.settings.hero_image 
-        | image_url: width: 1500 
-        | image_tag: loading: 'lazy'
-      }}
-    </div>
-  {% endif %}
+    <div class="hero-text">
+      <div class="hero-text-wrapper">
+        {% if section.settings.title != blank %}
+          <h1>{{ section.settings.title }}</h1>
+        {% endif %}
 
-  <div class="hero-text">
-    <div class="hero-text-wrapper">
+        {% if section.settings.subtitle != blank %}
+          <p>{{ section.settings.subtitle }}</p>
+        {% endif %}
 
-      {% if section.settings.title != blank %}
-        <h1>{{ section.settings.title }}</h1>
-      {% endif %}
-
-      {% if section.settings.subtitle != blank %}
-        <p>{{ section.settings.subtitle }}</p>
-      {% endif %}
-
-      {% if section.settings.btn_text != blank %}
-        <a href="{{ section.settings.button_link }}">
-          {{ section.settings.btn_text }}
-        </a>
-      {% endif %}
-
+        {% if section.settings.btn_text != blank %}
+          <a href="{{ section.settings.button_link }}">
+            {{ section.settings.btn_text }}
+          </a>
+        {% endif %}
+      </div>
     </div>
   </div>
-
 </section>
 
 {% schema %}
