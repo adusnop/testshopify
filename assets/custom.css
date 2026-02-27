@@ -1,0 +1,13 @@
+/* ======== Card Collection Custom========== */
+.collection-list .media {
+  border-radius: 10px;
+}
+.collection-list .collection-list__item {
+  padding: 0.5rem;
+}
+.collection-list .card__heading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-left: 0.5rem;
+}

@@ -1,3 +1,12 @@
+@media (max-width: 767px) {
+  .hero-banner-wrapper {
+    flex-direction: column;
+  }
+  .hero-content {
+    padding: 4rem;
+  }
+}
+
 .hero-banner-wrapper {
   display: flex;
   width: 100%;
@@ -8,6 +17,7 @@
 
 .hero-content {
   flex-basis: 40%;
+  padding: 9rem;
 }
 .hero-image img {
   width: 100%;
