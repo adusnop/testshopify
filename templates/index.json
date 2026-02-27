@@ -9,29 +9,42 @@
  */
 {
   "sections": {
-    "image_banner": {
+    "hero_custom_rLhTt7": {
+      "type": "hero-custom",
+      "name": "Hero Custom",
+      "settings": {
+        "title": "Snow styles now up to 50% off.",
+        "subtitle": "We’ve added snow styles to our winter sale. Find past-season gear at our biggest markdowns of the year and get back on track.  ",
+        "hero_image": "shopify://shop_images/large-fall-leaf-in-hand.jpg",
+        "btn_text": "Shop Sale",
+        "button_link": "",
+        "color_background": "#121212",
+        "color_scheme": ""
+      }
+    },
+    "image_banner_hdCb3z": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
+        "heading_xdXyVc": {
           "type": "heading",
           "settings": {
             "heading": "Image banner",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
-        "text": {
+        "text_U9cpG9": {
           "type": "text",
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
           }
         },
-        "button": {
+        "buttons_maLYEt": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -39,25 +52,28 @@
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "heading_xdXyVc",
+        "text_U9cpG9",
+        "buttons_maLYEt"
       ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image": "shopify://shop_images/toomas-tartes-Yizrl9N_eDA-unsplash.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
         "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
-        "color_scheme": "scheme-3",
-        "stack_images_on_mobile": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
-        "show_text_below": false
+        "show_text_below": true
       }
     }
   },
   "order": [
-    "image_banner"
+    "hero_custom_rLhTt7",
+    "image_banner_hdCb3z"
   ]
 }
