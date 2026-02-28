@@ -20,17 +20,10 @@
             "heading": "Quick links",
             "menu": "footer"
           }
-        },
-        "brand_information_qjdbqP": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
-          }
         }
       },
       "block_order": [
-        "footer-0",
-        "brand_information_qjdbqP"
+        "footer-0"
       ],
       "settings": {
         "color_scheme": "scheme-5",
