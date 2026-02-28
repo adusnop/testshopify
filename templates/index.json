@@ -15,11 +15,11 @@
       "settings": {
         "title": "Snow styles now up to 50% off.",
         "subtitle": "We’ve added snow styles to our winter sale. Find past-season gear at our biggest markdowns of the year and get back on track.  ",
-        "hero_image": "shopify://shop_images/large-fall-leaf-in-hand.jpg",
+        "hero_image": "shopify://shop_images/klara-kulikova-Lum819N4fGg-unsplash.jpg",
         "btn_text": "Shop Sale",
         "button_link": "",
         "color_background": "#121212",
-        "color_scheme": ""
+        "color_scheme": "scheme-5"
       }
     },
     "featured_collection_thWHWA": {
@@ -39,59 +39,16 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "color_scheme": "",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_EDtmtx": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_gMVPnT": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_eCxhQ9": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_nhREU7": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_gMVPnT",
-        "text_eCxhQ9",
-        "button_nhREU7"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "image_banner_hdCb3z": {
@@ -100,22 +57,22 @@
         "heading_xdXyVc": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Every Trail Tells a Story",
             "heading_size": "h1"
           }
         },
         "text_U9cpG9": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Premium outdoor clothing and gear designed for real exploration.",
             "text_style": "body"
           }
         },
         "buttons_maLYEt": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Start Exploring",
+            "button_link_1": "shopify://collections",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -131,7 +88,7 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/toomas-tartes-Yizrl9N_eDA-unsplash.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 40,
         "image_height": "medium",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
@@ -188,7 +145,6 @@
   "order": [
     "hero_custom_rLhTt7",
     "featured_collection_thWHWA",
-    "rich_text_EDtmtx",
     "image_banner_hdCb3z",
     "collection_list_Urq4Mw"
   ]

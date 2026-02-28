@@ -1,18 +1,12 @@
-@media (max-width: 767px) {
-  .hero-banner-wrapper {
-    flex-direction: column;
-  }
-  .hero-content {
-    padding: 4rem;
-  }
-}
-
 .hero-banner-wrapper {
   display: flex;
   width: 100%;
 }
 .hero-image {
   flex-basis: 60%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  object-position: center;
 }
 
 .hero-content {
@@ -28,4 +22,15 @@
 .btn-link {
   background: white;
   color: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+@media (max-width: 1023px) {
+  .hero-banner-wrapper {
+    flex-direction: column;
+  }
+  .hero-content {
+    padding: 4rem;
+  }
 }

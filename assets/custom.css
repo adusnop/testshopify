@@ -1,4 +1,11 @@
-/* ======== Card Collection Custom========== */
+a {
+  text-decoration: none;
+}
+.header {
+  grid-template-columns: 1fr auto 1fr;
+}
+
+/* ======== Card Collection Custom ========== */
 .collection-list .media {
   border-radius: 10px;
 }
